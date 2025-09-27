@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Ensures the page scales properly on mobile devices-->
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Links the external CSS file for styling-->
+</head>
+<body>
+    <nav> <!--Navigation Menu-->
+        <ul>
+            <!--<ul> is an unorded list to contain navigation links-->
+            <li><a href="#home">Home</a></li>
+            <!--<li> is a list item, <a> is a hyperlink. href="#home" links to the Home section-->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="experience">Experience</a></li>
+            <li><a href="certifications">Certifactions</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Home/About me section-->
+    <section id="home">
+        <!--<section> is a semantic element for grouping content, id="home allows linking"-->
+        <hi>Hello I'm Nicholas Zwally-Knebel</hi>
+        <p>I am originally from Connecticut, having worked for four years as an electrician. Currently a Junior working towards my Computer Science Degree</p>
+        <img src="images/profile.jpg" alt="My photo">
+    </section>
+
+    <!--Projects Section-->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <!--<h2> is a subheading-->
+        <div class="project">
+            <!--<div> is a container for a project-->
+            <h3>Project 1</h3>
+            <!--<h3> is a smaller heading for each project-->
+            <p>Description</p>
+            <!--<p> describes my project-->
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description</p>
+        </div>
+    </section>
+    <!--Experience Section-->
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>List of certificates or courses here</p>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: nknebel@leomail.tamuc.edu</p>
+        <p>Address: 67 Santa Claus Lane</p>
+    </section>
+</body>
+</html>
